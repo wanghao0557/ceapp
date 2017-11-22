@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>vue 演示</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="container"></div>
+    <!-- built files will be auto injected -->
+    <script src="http://webapi.amap.com/maps?v=1.4.0&key=d767ee0b42822be1186f3060d85b3db5"></script>
+    <script type="text/javascript">
+      var map = new AMap.Map('container',{
+        resizeEnable: true,
+        zoom: 10,
+        center: [116.480983, 40.0958]
+      });
+    </script>
+  </body>
+</html>
